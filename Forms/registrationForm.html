@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form Assingment</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        .input-row{
+            margin-bottom:10px;
+        }
+        body{
+            width:100%;
+            font-family: helvetica;
+            background-color:#eee;
+        }
+        form{
+            width:fit-content;
+            margin:20px;
+            padding:20px;
+            background-color:beige;
+            border:1px solid #ccc;
+            border-radius: 5px;
+        }
+        label{
+            font-weight:bold;
+        }
+        .submitForm{
+            background-color: blue; color:white; padding: 10px; border-radius: 5px; border: 2px solid white; cursor:pointer; font-weight: 700;
+        }
+        .submitForm:hover{
+            background-color:rgb(86, 15, 218);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Registration Form</h1>
+        <div class="input-row">
+            <label for="first-name">First Name: *</label>
+            <input type="text" placeholder="John" id="first-name">
+        </div>
+        <div class="input-row">
+            <label for="last-name">Last Name: *</label>
+            <input type="text" placeholder="Gruber" id="last-name">
+        </div>
+        <div class="input-row">
+            <label for="email-address">Email Address: *</label>
+            <input type="email" placeholder="name@provider.com" id="email-address">
+        </div>
+        <div class="input-row">
+            <label for="password">Password: *</label>
+            <input type="password" id="password">
+        </div>
+        <div class="input-row">
+            <label for="confirm-password">Confirm Password: *</label>
+            <input type="password" id="confirm-password">
+        </div>
+        <div class="input-row">
+            <label for="birthday">Birthday: *</label>
+            <input type="date" id="birthday">
+        </div>
+        <div class="input-row">
+            <label>Gender Identity: </label><br>
+            
+            <input name='gender-identity' type="radio" value="Male" id="male">
+            <label for="male">Male</label>
+            <input name='gender-identity' type="radio" value="Female" id="female">
+            <label for="female">Female</label>
+            <input name='gender-identity' type="radio" value="Non-binary" id="non-binary">
+            <label for="non-binary">Non-binary</label>
+            <input name='gender-identity' type="radio" value="I prefer not answer" id="not-answer">
+            <label for="not-answer">I prefer not answer</label>
+        </div>
+        <div class="input-row">
+            <label for="short-description">A shord description about myself:</label><br>
+            <textarea name="short-description" rows="5" cols="45" id="short-description">
+            </textarea>
+        </div>
+        <div class="input-row">
+            <label for="favorite-language">Favorite Language:</label>
+            <select name="favorite-language" id="favorite-language">
+                <option value="JavaScript">JavaScript</option>
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+                <option value="Swift">Swift</option>
+            </select>
+        </div>
+        <div class="input-row">
+            <input type="checkbox" name="accept" id="accept">
+            <label for="accept">Yes, I would like to receive periodic email updates.</label>
+        </div>
+        <div class="input-row">
+            <input class="submitForm" type="submit" value="Create Account">
+        </div>
+        <p><em>* Indicates a requided field</em></p>
+    </form>
+</body>
+</html>

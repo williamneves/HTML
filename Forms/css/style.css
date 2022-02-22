@@ -1,0 +1,19 @@
+.input-row{
+    margin-bottom:10px;
+}
+body{
+    width:100%;
+    font-family: helvetica;
+    background-color:#eee;
+}
+form{
+    width:fit-content;
+    margin:20px;
+    padding:20px;
+    background-color:beige;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+label{
+    font-weight:bold;
+}
