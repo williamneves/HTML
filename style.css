@@ -1,0 +1,53 @@
+* {
+    font-family: helvetica;
+}
+body {
+    width: -webkit-fill-available;
+}
+.black-bg{
+    background-color:black;
+}
+.purple-bg{
+    background-color:purple;
+}
+.aqua-bg{
+    background-color:aqua;
+}
+.bold{
+    font-weight:bold;
+}
+.italic{
+    font-style:italic;
+}
+.underline{
+    text-decoration:underline;
+}
+.size-xl{
+    font-size: 26px;
+}
+.size-l{
+    font-size: 22px;
+}
+.size-m{
+    font-size: 18px;
+}
+.white{
+    color:white;
+}
+.blue{
+    color:blue;
+}
+.purple{
+    color:purple;}
+div.container{
+    padding: 10px;
+}
+.margin-bottom-10{
+    margin-top: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
