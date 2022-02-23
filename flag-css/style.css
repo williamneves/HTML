@@ -1,0 +1,55 @@
+body{
+
+}
+#container-japan{
+    width: 800px;
+    background-color:white;
+    border: 2px solid #ccc;
+    height: 500px;
+    margin: 60px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 14px 10px 10px #ccc;
+}
+.circle-japan {
+    background: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: inset 1px 1px 41px #333;
+}
+
+#container-sweden{
+    width: 800px;
+    background-color:#f3cd00;
+    border: 2px solid #006AA8;
+    height: 500px;
+    margin: 60px auto;
+    justify-content: center;
+    box-shadow: 14px 10px 10px #ccc;
+}
+.box-1 {
+    background: #006AA8;
+    width: 35%;
+    height: 42%;
+    float:left;
+}
+.box-2 {
+    width: 10%;
+    height: 42%;
+    float:left;
+}
+.box-3 {
+    background:#006AA8;
+    width: 55%;
+    height: 42%;
+    float:left;
+}
+.box-4 {
+    display:block;
+    width: 100%;
+    height: 16%;
+
+    float:left;
+}
