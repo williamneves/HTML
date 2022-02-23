@@ -1,0 +1,133 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  }
+h1,h2,h3,h4{
+  font-family: 'Roboto', sans-serif;
+}
+#main{
+    max-width: 600px;
+    margin: auto;
+  }
+#header {
+  display: inline-block;
+  width:100%;
+  height: fit-content;
+}
+.profile-name {
+  line-height: 128px;
+  height: 128px;
+}
+.profile-name h1{
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.8rem;
+
+}
+.profile-pic img{
+  width: 128px;
+  height:128px;
+  transition: ease-in-out 0.3s;
+  padding: 4px;
+}
+.profile-pic img:hover{
+  width:136px;
+  height:136px;
+  padding: 0px;
+}
+.profile-social{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.profile-social a{
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+.float-right{
+  float: right;
+}
+.float-left{
+  float: left;
+}
+.full-width{
+  width:100%;
+}
+.margin-right-sm{
+  margin-right:10px;
+}
+table {
+  border:none;
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+}
+table td, table th{
+  padding: 5px;
+  transition: ease-in-out .2s;
+}
+
+table td:first-child, table th:first-child {
+  border-left: none;
+}
+
+table td:last-child, table th:last-child {
+  border-right: none;
+}
+table tr{
+  border-bottom: 1px solid #000;
+  transition: ease-in-out .2s;
+}
+table tr:last-child {
+  border-bottom: none;
+}
+table tr:first-child{
+  background-color: #ccc;
+}
+table tr:nth-child(3){
+  background-color: #ddd;
+}
+table tr:hover{
+  background-color:#eee;
+}
+table td:hover{
+  background-color:#fff;
+}
+#social-snakes i{
+  width: 52px;
+  height: 52px;
+  border: 3px solid #000;
+  border-radius: 10px;
+  font-size: 36px;
+  text-align: center;
+  line-height: 54px;
+  background-color: hsl(4deg 100% 85%);
+}
+#contact-form input {
+  border-radius: 5px;
+  border: 2px solid #555;
+  padding: 5px;
+}
+
+.form-name, .form-email, .form-message {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.form-message label {
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.form-message textarea {
+  border-radius: 5px;
+  border: 2px solid #555;
+  padding: 5px;
+}
+.form-submit input {
+  background-color: hsl(4deg 100% 85%);
+  font-weight: 700;
+  padding: 20px;
+  font-size: 15px;
+}
