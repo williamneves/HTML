@@ -30,14 +30,13 @@
         <div id="content">
             <div class="box-post">
                 <div class="top">
-
                 </div>
                 <div class="bottom">
                     <div class="user-img">
                         <img src="imgs/user-circle.png" alt="User Image Profile">
                     </div>
                     <div class="user-name">
-                        <h1>William Neves</h1>
+                        <h1 id="nameP">William Neves</h1>
                     </div>
                     <div class="user-location">
                         <h4><i class="fa-solid fa-location-dot"></i> Parkland, <em>FL</em></h4>
@@ -46,7 +45,7 @@
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ullam, obcaecati quo nulla error alias exercitationem laborum numquam eligendi.</p>
                     </div>
                     <div class="toggle-profile">
-                        <a href="#"><i class="fa-solid fa-gear"></i> Edit Profile</a>
+                        <a href="#" onclick="changeName()"><i class="fa-solid fa-gear"></i> Edit Profile</a>
                     </div>
                 </div>
             </div>
@@ -65,30 +64,30 @@
             <div class="widgets">
                 <div class="bar-top-40-s">
                     <div class="push-numbers">
-                        <span>2</span>
+                        <span id="cr-push">2</span>
                     </div>
                     <h2>Connections Requests</h2>
                 </div>
                 <div class="c-request">
-                    <div class="person-request">
+                    <div id="element-1" class="person-request">
                         <div class="pimg">
                             <img src="imgs/user-circle.png" alt="User Image">
                         </div>
                         <div class="pname">
                             <h2>Todd E</h2>
                         </div>
-                        <div class="pcheck">
+                        <div class="pcheck" onclick="hideElementId1()">
                             <i class="fa-solid fa-circle-check"></i> <i class="fa-solid fa-circle-xmark"></i>
                         </div>
                     </div>
-                    <div class="person-request">
+                    <div id="element-2" class="person-request">
                         <div class="pimg">
                             <img src="imgs/user-circle.png" alt="User Image">
                         </div>
                         <div class="pname">
                             <h2>Phill K</h2>
                         </div>
-                        <div class="pcheck">
+                        <div class="pcheck" onclick="hideElementId2()">
                             <i class="fa-solid fa-circle-check"></i> <i class="fa-solid fa-circle-xmark"></i>
                         </div>
                     </div>
@@ -97,7 +96,7 @@
             <div class="widgets">
                 <div class="bar-top-40-s">
                     <div class="push-numbers">
-                        <span>500+</span>
+                        <span id="cnt-push">128</span>
                     </div>
                     <h2>Your Connections</h2>
                 </div>
@@ -147,15 +146,6 @@
             </div>
         </div>
     </div>
-    <script>
-        function changeFlowDirection() {
-            if (document.getElementById("container").style.flexDirection != "row-reverse") {
-                document.getElementById("container").style.flexDirection = "row-reverse"
-            }
-            else {
-                document.getElementById("container").style.flexDirection = "row"
-            }
-        }
-    </script>
+<script src="script.js"></script>
 </body>
 </html>

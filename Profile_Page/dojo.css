@@ -1,0 +1,116 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  h1,h2,h3,h4{
+    font-family: 'Comfortaa', cursive;
+}
+#container {
+    max-width: 1024px;
+    min-width: 768px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    transition: ease-in-out .1s;
+}
+#content {
+    width: 65%;
+    height: fit-content;
+    min-height: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#side-bar {
+    width: 30%;
+    height: fit-content;
+    min-height: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.box-post, .widgets {
+    margin-bottom: 30px;
+    width: 98.5%;
+    min-height: 100px;
+    background-color: white;
+    height: fit-content;
+    overflow: hidden;
+    border: 3px solid #ccc;
+    border-radius: 7px;
+}
+#nav-content {
+    width: 100%;
+    max-width: 1024px;
+    min-width: 768px;
+    height: fit-content;
+    min-height: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    align-content: center;
+    margin: 0 auto;
+}
+.flex-menu li {
+    list-style: none;
+    font-size: 20px;
+}
+
+div#profile-logo {
+    flex: 1;
+}
+
+div#nav-menu {
+    flex: 2;
+}
+
+div#button-menu {
+    flex: 1;
+    text-align: center;
+}
+
+#button-menu button {
+    height: 40px;
+    padding: 0 30px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: #8d4a33;
+    color: white;
+    font-weight: 700;
+    box-shadow: 4px 4px #8d4a33;
+    transition: ease-in-out 0.2s;
+    cursor:pointer;
+}
+#button-menu button:hover {
+    height: 40px;
+    padding: 0 30px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background-color: #7e5d52;
+    color: white;
+    font-weight: 700;
+    box-shadow: 4px 4px #7e5d52;
+    transition: ease-in-out 0.2s;
+}
+#button-menu button:active {
+    box-shadow:1px 2px #7e5d52;
+    transition: ease-in-out 0.2s;
+}
